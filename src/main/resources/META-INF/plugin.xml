@@ -1,0 +1,24 @@
+<idea-plugin>
+    <id>org.example.CodeforcesAutoTest</id>
+    <name>CodeforcesAutoTest</name>
+    <vendor email="adanilcoder@gmail.com" url="http://www.inftteacher.com">adanil</vendor>
+
+    <description>aDanil coorp. 2021 all right reserved. MIREA - RUSSIAN TECHNOLOGICAL UNIVERSITY</description>
+
+    <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+        <action id="CodeforcesAction" class="CodeforcesAction" text="Codeforces auto test plugin "
+                description="Auto test from task after compilation">
+            <add-to-group group-id="ToolsMenu" anchor="first"/>
+            <add-to-group group-id="RunMenu" anchor="first" />
+        </action>
+    </actions>
+</idea-plugin>

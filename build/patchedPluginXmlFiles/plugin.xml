@@ -1,0 +1,19 @@
+<idea-plugin>
+  <version>1.0-SNAPSHOT</version>
+  <change-notes>
+      Add change notes here.&lt;br&gt;
+      &lt;em&gt;most HTML tags may be used&lt;/em&gt;</change-notes>
+  <idea-version since-build="203.7148" until-build="203.*"/>
+  <id>org.example.CodeforcesAutoTest</id>
+  <name>CodeforcesAutoTest</name>
+  <vendor email="adanilcoder@gmail.com" url="http://www.inftteacher.com">adanil</vendor>
+  <description>aDanil coorp. 2021 all right reserved. MIREA - RUSSIAN TECHNOLOGICAL UNIVERSITY</description>
+  <depends>com.intellij.modules.platform</depends>
+  <extensions defaultExtensionNs="com.intellij"/>
+  <actions>
+    <action id="CodeforcesAction" class="CodeforcesAction" text="Codeforces auto test plugin " description="Auto test from task after compilation">
+      <add-to-group group-id="ToolsMenu" anchor="first"/>
+      <add-to-group group-id="RunMenu" anchor="first"/>
+    </action>
+  </actions>
+</idea-plugin>
